@@ -38,4 +38,11 @@ The following problems are solved from the HackerRank using Rust language.
 
 ### Medium Problems
 
+1. [Extra Long Factorials](https://www.hackerrank.com/challenges/extra-long-factorials/problem?isFullScreen=true)
+
+**Solution**: [easy/extra_long_factorials.rs](https://github.com/fabi200123/HackerRank-problems/blob/master/medium/extra_long_factorials.rs)
+
+**NOTE**: The problem requires me to do the factorial of the integer n (`1 <= n <= 100`). For this, I use the BigInt from num library to store the result and I do a `for 1..=n` and do the product of all elements.
+
+
 ### Hard Problems
