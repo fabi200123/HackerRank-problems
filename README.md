@@ -12,6 +12,14 @@ The following problems are solved from the HackerRank using Rust language.
 
 **NOTE**: The problem requires to print the sum of 2 numbers.
 
+2. [Simple Array Sum](https://www.hackerrank.com/challenges/simple-array-sum/problem?isFullScreen=true)
+
+**Solution**: [easy/simplearraysum.rs](https://github.com/fabi200123/HackerRank-problems/blob/master/easy/simplearraysum.rs)
+
+**NOTE**: The problem requires me to complete the function, by iterating over the elements of an array and returning the sum of those.
+
+3. 
+
 ### Medium Problems
 
 ### Hard Problems
