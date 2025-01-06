@@ -18,7 +18,11 @@ The following problems are solved from the HackerRank using Rust language.
 
 **NOTE**: The problem requires me to complete the function, by iterating over the elements of an array and returning the sum of those.
 
-3. 
+3. [A Very Big Sum](https://www.hackerrank.com/challenges/a-very-big-sum/problem?isFullScreen=true)
+
+**Solution**: [easy/averybigsum.rs](https://github.com/fabi200123/HackerRank-problems/blob/master/easy/averybigsum.rs)
+
+**NOTE**: The problem requires me to complete the function for calculating the sum of an array composed of Big integers. Solved by iterating over the array and adding them together.
 
 ### Medium Problems
 
