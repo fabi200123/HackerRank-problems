@@ -36,6 +36,12 @@ The following problems are solved from the HackerRank using Rust language.
 
 **NOTE**: The problem requires me to complete the function for calculating the number of words from the string s (CamelCase). For this I start the sum from 1 and add 1 for each upper case letter.
 
+6. [Grading Students](https://www.hackerrank.com/challenges/grading/problem?isFullScreen=true)
+
+**Solution**: [easy/grading_students.rs](https://github.com/fabi200123/HackerRank-problems/blob/master/easy/grading_students.rs)
+
+**NOTE**: The problem requires me to complete the function for rounding the grades for the students and returing a vector with the updated grades. Firstly, I check if the grade of the student is lower than 38 (for this case, the grade doesn't rounds - student is considered failed), after that I calculate the result of the division to 5 of the grade, which I round and based on the diference of the grade and the result of the (rounded division * 5), I compare if the grade should be / should not be rounded up. Thus, storing the results in a new vector and returning it.
+
 ### Medium Problems
 
 1. [Extra Long Factorials](https://www.hackerrank.com/challenges/extra-long-factorials/problem?isFullScreen=true)
