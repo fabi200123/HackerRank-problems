@@ -73,6 +73,12 @@ The following problems are solved from the HackerRank using Rust language.
 
 **NOTE**: The problem requires me to check if the sum of all elements of a vector, minus a specific element, divided by 2 is equal to another number. I have used a `for` to iterate over the array and using an `if` to skip the element that is not needed to be counted and storing this sum. With this sum, I have calculated the value needed to be payed and compared it to the number given, printing the corresponding output.
 
+11. [The Hurdle Race](https://www.hackerrank.com/challenges/the-hurdle-race/problem?isFullScreen=true)
+
+**Solution**: [easy/the_hurdle_race.rs](https://github.com/fabi200123/HackerRank-problems/blob/master/easy/the_hurdle_race.rs)
+
+**NOTE**: The problem requires me to check the number of potions needed by the knight. For this, I have a `for` that iterates over the hurdles heights, and with an `while`, I increase the number of potions and the jump height of the knight, if the hurdle is too big for him to jump. In the end, I return the number of potions used.
+
 ### Medium Problems
 
 1. [Extra Long Factorials](https://www.hackerrank.com/challenges/extra-long-factorials/problem?isFullScreen=true)
