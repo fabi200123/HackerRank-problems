@@ -79,6 +79,12 @@ The following problems are solved from the HackerRank using Rust language.
 
 **NOTE**: The problem requires me to check the number of potions needed by the knight. For this, I have a `for` that iterates over the hurdles heights, and with an `while`, I increase the number of potions and the jump height of the knight, if the hurdle is too big for him to jump. In the end, I return the number of potions used.
 
+12. [Utopian Tree](https://www.hackerrank.com/challenges/utopian-tree/problem?isFullScreen=true)
+
+**Solution**: [easy/utopian_tree.rs](https://github.com/fabi200123/HackerRank-problems/blob/master/easy/utopian_tree.rs)
+
+**NOTE**: The problem requires me to output the height of the tree. In order to do this, I have to add `+1` for each odd cycle, and to double the height for each even cycle. I have created a for to iterate over the cycles and based on the rules mentioned before, I have calculated the height. 
+
 ### Medium Problems
 
 1. [Extra Long Factorials](https://www.hackerrank.com/challenges/extra-long-factorials/problem?isFullScreen=true)
