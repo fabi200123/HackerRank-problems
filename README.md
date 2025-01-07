@@ -42,6 +42,19 @@ The following problems are solved from the HackerRank using Rust language.
 
 **NOTE**: The problem requires me to complete the function for rounding the grades for the students and returing a vector with the updated grades. Firstly, I check if the grade of the student is lower than 38 (for this case, the grade doesn't rounds - student is considered failed), after that I calculate the result of the division to 5 of the grade, which I round and based on the diference of the grade and the result of the (rounded division * 5), I compare if the grade should be / should not be rounded up. Thus, storing the results in a new vector and returning it.
 
+7. [Staircase](https://www.hackerrank.com/challenges/staircase/problem?isFullScreen=true)
+
+**Solution**: [easy/staircase.rs](https://github.com/fabi200123/HackerRank-problems/blob/master/easy/staircase.rs)
+
+**NOTE**: The problem requires me generate a staircase in the format below. In order to achieve this, I have created an iteration from 1 to `n+1`, in which I have printed `n-i` spaces and `i` `#`. Thus, creating the staircase.
+
+```
+   #
+  ##
+ ###
+####
+```
+
 ### Medium Problems
 
 1. [Extra Long Factorials](https://www.hackerrank.com/challenges/extra-long-factorials/problem?isFullScreen=true)
