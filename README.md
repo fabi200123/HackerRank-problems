@@ -83,7 +83,13 @@ The following problems are solved from the HackerRank using Rust language.
 
 **Solution**: [easy/utopian_tree.rs](https://github.com/fabi200123/HackerRank-problems/blob/master/easy/utopian_tree.rs)
 
-**NOTE**: The problem requires me to output the height of the tree. In order to do this, I have to add `+1` for each odd cycle, and to double the height for each even cycle. I have created a for to iterate over the cycles and based on the rules mentioned before, I have calculated the height. 
+**NOTE**: The problem requires me to output the height of the tree. In order to do this, I have to add `+1` for each odd cycle, and to double the height for each even cycle. I have created a for to iterate over the cycles and based on the rules mentioned before, I have calculated the height.
+
+13. [Divisible Sum Pairs](https://www.hackerrank.com/challenges/divisible-sum-pairs/problem?isFullScreen=true)
+
+**Solution**: [easy/divisible_sum_pairs.rs](https://github.com/fabi200123/HackerRank-problems/blob/master/easy/divisible_sum_pairs.rs)
+
+**NOTE**: The problem requires me to output the number of pairs from an array that are divisible with k. For this, I create a `for` `i` from `0` to `n-1` and another one from `i` to `n`, thus increasing the counter for every `(i, j)` pair such that `(ar[i] + ar[j])` is divided by `k`.
 
 ### Medium Problems
 
