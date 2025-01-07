@@ -91,6 +91,12 @@ The following problems are solved from the HackerRank using Rust language.
 
 **NOTE**: The problem requires me to output the number of pairs from an array that are divisible with k. For this, I create a `for` `i` from `0` to `n-1` and another one from `i` to `n`, thus increasing the counter for every `(i, j)` pair such that `(ar[i] + ar[j])` is divided by `k`.
 
+14. [Find Digits](https://www.hackerrank.com/challenges/find-digits/problem?isFullScreen=true)
+
+**Solution**: [easy/find_digits.rs](https://github.com/fabi200123/HackerRank-problems/blob/master/easy/find_digits.rs)
+
+**NOTE**: The problem requires me to check how many of the digits of a number divide it. For this, I copy the number to an `aux` mutable variable. Next, while `aux` is not 0, I get the last digit of aux, check if the number is divided with it (increase a counter if it is), then update aux to be `aux / 10` (removing the last digit from the list of digits to be checked - `aux`). This goes on, until there are no digits left in `aux`
+
 ### Medium Problems
 
 1. [Extra Long Factorials](https://www.hackerrank.com/challenges/extra-long-factorials/problem?isFullScreen=true)
