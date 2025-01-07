@@ -67,6 +67,12 @@ The following problems are solved from the HackerRank using Rust language.
 
 **NOTE**: The problem requires me to compare in order the elements of 2 vectors. So I create a for loop and I compare element by element the 2 triplets. If one element is bigger, the correspoding array receives a point (stored in variable `score_<array-name>`).
 
+10. [Bill Division](https://www.hackerrank.com/challenges/bon-appetit/problem?isFullScreen=true)
+
+**Solution**: [easy/bill_division.rs](https://github.com/fabi200123/HackerRank-problems/blob/master/easy/bill_division.rs)
+
+**NOTE**: The problem requires me to check if the sum of all elements of a vector, minus a specific element, divided by 2 is equal to another number. I have used a `for` to iterate over the array and using an `if` to skip the element that is not needed to be counted and storing this sum. With this sum, I have calculated the value needed to be payed and compared it to the number given, printing the corresponding output.
+
 ### Medium Problems
 
 1. [Extra Long Factorials](https://www.hackerrank.com/challenges/extra-long-factorials/problem?isFullScreen=true)
