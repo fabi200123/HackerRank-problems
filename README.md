@@ -55,6 +55,12 @@ The following problems are solved from the HackerRank using Rust language.
 ####
 ```
 
+8. [Birthday Cake Candles](https://www.hackerrank.com/challenges/birthday-cake-candles/problem?isFullScreen=true)
+
+**Solution**: [easy/birthday_cake_candles.rs](https://github.com/fabi200123/HackerRank-problems/blob/master/easy/birthday_cake_candles.rs)
+
+**NOTE**: The problem requires me calculate the number of occurences of the biggest element in a vector. So firstly, I create an aux where I store the first element of the vector, then if the element stored in the aux occurs in the vector, I increase the count. If the aux is smaller than an element of the vector, aux takes the value of that element and reset count to 1. After that, continue iteration.
+
 ### Medium Problems
 
 1. [Extra Long Factorials](https://www.hackerrank.com/challenges/extra-long-factorials/problem?isFullScreen=true)
