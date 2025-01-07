@@ -81,4 +81,10 @@ The following problems are solved from the HackerRank using Rust language.
 
 **NOTE**: The problem requires me to transform a string into an encrypted script. For this, I first need to remove the spaces from the message. Then I calculate the sqrt of the length of the string, based on floor/ceil I calculate the rows/columns. Based on the rows and columns and iterating step by step over the characters, I recreate the words for the encrypted message, which I return with spaces between these words.
 
+3. [Fibonacci Modified](https://www.hackerrank.com/challenges/fibonacci-modified/problem?isFullScreen=true)
+
+**Solution**: [medium/fibbonaci_modified.rs](https://github.com/fabi200123/HackerRank-problems/blob/master/medium/fibbonaci_modified.rs)
+
+**NOTE**: The problem requires me to do the fibbonaci with a modified formula. The solution is pretty straight-forward, the only issue is the storage related part. In order to store the values, I have used the `BigInt` from `num` library, thus having an easy solutions, based on a for loop starting from the 3rd number in sequence and calculating to the n-th.
+
 ### Hard Problems
