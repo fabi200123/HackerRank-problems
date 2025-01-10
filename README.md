@@ -97,6 +97,12 @@ The following problems are solved from the HackerRank using Rust language.
 
 **NOTE**: The problem requires me to check how many of the digits of a number divide it. For this, I copy the number to an `aux` mutable variable. Next, while `aux` is not 0, I get the last digit of aux, check if the number is divided with it (increase a counter if it is), then update aux to be `aux / 10` (removing the last digit from the list of digits to be checked - `aux`). This goes on, until there are no digits left in `aux`
 
+15. [Angry Professor](https://www.hackerrank.com/challenges/angry-professor/problem?utm_campaign=challenge-recommendation&utm_medium=email&utm_source=24-hour-campaign)
+
+**Solution**: [easy/angry_professor.rs](https://github.com/fabi200123/HackerRank-problems/blob/master/easy/angry_professor.rs)
+
+**NOTE**: The problem requires me to verify how many of the elements inside an array are below 0. If the number of those elements is lower than a variable `k`, then the class is canceled, thus returning `"YES"`; else I need to return `"NO"`, the class starting normally. 
+
 ### Medium Problems
 
 1. [Extra Long Factorials](https://www.hackerrank.com/challenges/extra-long-factorials/problem?isFullScreen=true)
